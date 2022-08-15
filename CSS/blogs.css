@@ -1,0 +1,32 @@
+body{
+    background-color: #9b8675d8;
+}
+.Heading{
+    font-family: fonts;
+    src: url(../Fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+    font-size: 100px;
+    margin-left: 70vh;
+    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(246, 242, 242, 0.93);
+    transition: 0.3s;
+    background-color: aliceblue;
+    margin-right: 200px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container2 {
+    padding: 2px 16px;
+    background-color: aliceblue;
+    margin-right: 50%;
+  }

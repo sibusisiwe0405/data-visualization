@@ -1,0 +1,117 @@
+.containar {
+    padding: 2rem 0 4rem 0;
+    background-color: rgba(26, 26, 25, 0.692);
+  }
+  footer {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: Fonts;
+    src: url(../Fonts/Satisfy/Satisfy-Regular.ttf);
+    color: white;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul {
+    list-style: none;
+  }
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-left: 2rem;
+  }
+  .footer-content h4 {
+    margin-bottom: 4rem;
+    align-items: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    padding-top: 2rem;
+  }
+  .footer-content h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-content h3 {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  }
+  .footer-content ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .footer-content ul li a {
+    font-size: 18px;
+    margin-right: 4rem;
+    padding-right: 5rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: inline-block;
+  }
+  .footer-content ul li a:hover {
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.3s ease;
+  }
+  .footer-content .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+  }
+  h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+  }
+
+@media screen and (max-width: 768px) {
+  footer {
+    height: 100vh;
+  }
+  @media screen and (max-width: 896px) {
+    footer {
+      height: 100vh;
+  }
+}
+  @media screen and (max-width: 700px) {
+    footer {
+      padding-bottom: 8rem;
+    }
+  }
+}
