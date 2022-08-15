@@ -13,15 +13,18 @@ body{
 }
 .card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(246, 242, 242, 0.93);
+    box-shadow:  rgba(246, 242, 242, 0.93);
     transition: 0.3s;
-    background-color: aliceblue;
-    margin-right: 200px;
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 50%;
+    
+
   }
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 20px rgba(0,0,0,0.2);
   }
   
   /* Add some padding inside the card container */
@@ -29,4 +32,12 @@ body{
     padding: 2px 16px;
     background-color: aliceblue;
     margin-right: 50%;
+    margin-bottom: 20px;
+    
+  }
+  .column{
+    display: flex;
+    align-items: center;
+
+
   }
