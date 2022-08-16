@@ -1,0 +1,12 @@
+.Heading
+{
+    
+        font-family: fonts;
+        src: url(../Fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+        font-size: 100px;
+        margin-left: 70vh;
+        position: absolute;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+}
