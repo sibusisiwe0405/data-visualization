@@ -3,7 +3,7 @@
 
 const navItems = [
     { href: 'index.html', text: 'Home'},
-    { href: '../Blogs/blog1.html', text: 'Blogs'  },
+    { href: 'Blogs/blog1.html', text: 'Blogs'  },
     { href: 'datavisual.html', text: 'Visualization'},
     { href: 'dataart.html', text: 'Data Art',  },
     {href: 'design.html', text: 'Wireframes',},
