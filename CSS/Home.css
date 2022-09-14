@@ -1,5 +1,7 @@
 body{
     background-color: #9b8675d8;
+    background: url(../Images/background.jpg);
+    margin-top: 100px;
 }
 .Heading{
     font-family: fonts;
@@ -8,6 +10,7 @@ body{
     margin-left: 70vh;
     position: absolute;
     margin-top: 10px;
+    color: aliceblue;
 
 }
 .homepic{
@@ -26,7 +29,7 @@ body{
 .circle {
     height: 150px;
     width: 150px;
-    background-color: rgb(80, 60, 31);
+    background-color: #DC3220;
     border-radius: 60%;
     position: absolute;
     margin-left: 50%;
@@ -40,5 +43,41 @@ body{
 margin-top: -80vh;
 margin-bottom: 80vh;
 font-size: 25px;
+color: aliceblue;
 
+}
+@media screen and (max-width: 600px) {
+    .Heading{
+        font-family: fonts;
+        src: url(../Fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+        font-size: 70px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        color: aliceblue;
+        border: none;
+}
+.homepic{
+    width: 50%;
+    height: 50%;
+    margin-left: 10vh;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.container{
+    margin-top: 20px;
+    align-items: center;
+
+}
+@media screen and (max-width: 600px) {
+
+    .context{
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+margin-top: -15vh;
+margin-bottom: 80vh;
+font-size: 20px;
+color: aliceblue;
+}
+}
 }

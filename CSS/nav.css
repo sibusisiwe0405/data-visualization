@@ -4,12 +4,13 @@ body {
   font-family: "roboto", sans-serif;
 }
 .menu {
-      background: #988372b8; 
+      background:black; 
   height: 5rem;
   position: fixed;
   width: 100%;
   top: 0;
   display: block;
+
 }
 .menu ol {
   list-style-type: none;
@@ -33,7 +34,7 @@ body {
   border-radius: 50%;
   bottom: 5px;
   left: calc(50% - 2px);
-  background: #653216;
+  background: #DC3220;
   will-change: transform;
   transform: scale(0);
   transition: transform 0.2s ease;
@@ -52,9 +53,10 @@ body {
   text-overflow: ellipsis;
   display: block;
   color: #fff;
+  font-size: 20px;
 }
 .menu-item a:hover {
-  background: #67421d;
+  background: #DC3220;
 }
 .sub-menu .menu-item {
   padding: 0.75rem 0;
