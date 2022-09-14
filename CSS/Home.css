@@ -4,6 +4,7 @@ body{
     margin-top: 100px;
 }
 .Heading{
+    background-color: black;
     font-family: fonts;
     src: url(../Fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
     font-size: 100px;
@@ -15,10 +16,10 @@ body{
 }
 .homepic{
     width: 50%;
-    height: 70%;
+    height: 50%;
     margin-left: 10vh;
     margin-top: 70px;
-    margin-bottom: 200px;
+    margin-bottom: 100vh;
 }
 .container{
     position: relative;
@@ -40,9 +41,11 @@ body{
     text-align: justify;
     margin-right: 100px;
     margin-left: 60%;
-margin-top: -80vh;
-margin-bottom: 80vh;
-font-size: 25px;
+margin-top: -200vh;
+margin-bottom: 100vh;
+font-size: 30px;
+font-family: fonts;
+src: url(../Fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
 color: aliceblue;
 
 }
