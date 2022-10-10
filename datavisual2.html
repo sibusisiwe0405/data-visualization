@@ -19,13 +19,20 @@
 <body>
     <p class="Heading">Static Graphs</p>
     <br>
-    <p class="graphs">The Line Graph below visualizes data of the top 10 most populated coutries in the world. The data represented is from the year 2018 estimated in the United Nations: World Population Prospects 2017. </p>
+    <a href="./interactive.html" class="next">Next</a>
+    <p class="graphs">The Pie Chart below visualizes data of the top 10 most populated coutries in the world. The data represented is from the year 2018 estimated in the United Nations: World Population Prospects 2017. </p>
     <main>
         
+        <div id="chart" style="height:600px;width:600px;margin-left:50px;">
+            <div class="innerCont" style=" top:50px; left: 400px; height:91% ; Width:100% ; padding-right:100px ; background-color:aliceblue;" />
+        </div>
         
-        
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
+        <script src="https://d3js.org/d3.v2.min.js"></script>
 
-        <my-footer></my-footer>
+<script src="datavisual2.js"></script>
+       
     </main>
+    <my-footer></my-footer>
 </body>
 </html>

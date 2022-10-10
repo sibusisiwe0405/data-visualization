@@ -1,32 +1,68 @@
+#chart text {
+  fill: black;
+  font: 10px sans-serif;
+  text-anchor: end;
+  
+
+}
+
+.axis text {
+  font: 20px sans-serif;
+  padding: 50px;
+  
+}
+
+.axis path, .axis line {
+  fill: none;
+  /*stroke: #fff;*/
+  shape-rendering: crispEdges;
+}
+
 body {
-    margin: 0px;
-    overflow: hidden;
-  }
-  
-  circle {
-    fill: red;
-    opacity: 0.3;
-  }
-  
-  text {
-    font-family: sans-serif;
-  }
-  
-  .tick text {
-    font-size: 2.7em;
-    fill: #635F5D;
-  }
-  
-  .tick line {
-    stroke: #C0C0BB;
-  }
-  
-  .axis-label {
-    font-size: 5em;
-    fill: #8E8883;
-  }
-  
-  .title {
-    font-size: 3.7em;
-    fill: #635F5D;
-  }
+  /*background: #1a1a1a;*/
+  color: #efeaea;
+  padding: 20px;
+}
+
+path {
+  stroke: rgb(18, 30, 40);
+  stroke-width: 2;
+  fill: none;
+}
+.innerCont{
+  overflow: auto;
+  top: 50px;
+  left: 400px;
+  height: 91%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+}
+.chart{
+  margin-left: 50px;
+}
+.next{
+  background-color: #DC3220;
+  color: white;
+text-decoration: none;
+font-size: 20px;
+padding: 20px;
+float: right;
+margin-top: 50px;
+margin-right: 20px;
+border-radius: 20px;
+}
+.Heading
+{
+    
+        font-family: fonts;
+        src: url(../Fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+        font-size: 100px;
+        margin-left: 30%;
+        position: absolute;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        padding-bottom: 100px;
+        color: aliceblue;
+}
