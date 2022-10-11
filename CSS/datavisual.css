@@ -25,3 +25,28 @@ body{
         color: aliceblue;
         margin-top: 150px;     
 }
+@media screen and (max-width: 600px) {
+        .Heading
+{
+    
+        font-family: fonts;
+        src: url(../Fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+        font-size: 50px;
+        margin-left: 70px;
+        position: absolute;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        color: aliceblue;
+}
+.next{
+        background-color: #DC3220;
+        color: white;
+      text-decoration: none;
+      font-size: 10px;
+      padding: 20px;
+
+      margin-top: 100px;
+      margin-right: 20px;
+      border-radius: 10px;
+      }
+}

@@ -59,7 +59,20 @@ var salesData;
                     .style("opacity", function (d) {
                         return d.data["op"];
                     });
-                    
+                    path.on("mouseenter", function (d) {
+                        d3.select(this)
+                            .attr("stroke", "white")
+                            .transition()
+                            .duration(200)
+                            .attr("d", arcOver)
+                            .attr("stroke-width", 1);
+                    })
+                     .on("mouseleave", function (d) {
+                         d3.select(this).transition()
+                             .duration(200)
+                             .attr("d", arc)
+                             .attr("stroke", "none");
+                     })
 
         path.append("svg:title")
         .text(function (d) {
@@ -91,7 +104,24 @@ var salesData;
                 return "translate(15," + (parseInt("-" + (runningData.length * 10)) + i * 28 + legendoffset) + ")";
             })
             .style("cursor", "pointer")
-            
+            .on("click", function () {
+                var oarc = d3.select("#" + id + " #arc-" + $(this).attr("legend-id"));
+                oarc.style("opacity", 0.3)
+                .attr("stroke", "white")
+                .transition()
+                .duration(200)
+                .attr("d", arcOver)
+                .attr("stroke-width", 1);
+                setTimeout(function () {
+                    oarc.style("opacity", function (d) {
+                        return d.data["op"];
+                    })
+                    .attr("d", arc)
+                    .transition()
+                    .duration(200)
+                    .attr("stroke", "none");
+                }, 1000);
+            });
 
         var leg = legend.append("rect");
 
@@ -203,5 +233,3 @@ var salesData;
         "xaxis": "Country",
         "yaxis": "Total"
     }]
-
- 

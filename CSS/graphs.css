@@ -34,7 +34,12 @@ body {
   }
   .graph{
     margin-left: 25%;
-  
-    
-  
+  }
+  @media screen and (max-width: 600px) {
+    .graph{
+      margin-left: 10%;
+      height: 400;
+      width: 500;
+      font-size: 10px;
+    }
   }
