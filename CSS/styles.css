@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  .sphere {
+    fill: #4242e4;
+
+
+  }
+  
+  .country {
+    stroke: black;
+    stroke-width: 0.05px;
+  }
+  
+  .country:hover {
+    fill: red;
+  }
+  
+  .tick text {
+    font-size: 0.5em;
+    fill: black;
+    font-family: sans-serif;
+  }
+  
+  .tick circle {
+    stroke: rgb(202, 161, 161);
+    stroke-opacity: 0.5;
+  }
+  .outter{
+    margin-top: 100px;
+    margin-left: 300px;
+width: 300px;
+
+  }
+  

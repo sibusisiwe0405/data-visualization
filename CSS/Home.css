@@ -1,6 +1,7 @@
 body{
     background-color: #9b8675d8;
     background: url(../Images/background.jpg);
+    backdrop-filter: 30;
     margin-top: 100px;
 }
 .Heading{

@@ -152,6 +152,7 @@ var salesData;
         runningColors = resultColors;
         return;
     }
+    
 
     var chartData = [
         {
@@ -202,6 +203,7 @@ var salesData;
         "color": [{ "INDIA": "blue", "INDONESIA": "#0070C0", "USA": "brown","CHINA": "#ff0001" , "BRAZIL":"#f434e7" , "PAKISTAN":"yellow" , "NIGERIA": "orange" , "BANGLADESH": "#f434e7" , "RUSSIA": "brown" , "MEXICO": "#0070C0"}],
         "xaxis": "Country",
         "yaxis": "Total"
+        
     }]
 
  
