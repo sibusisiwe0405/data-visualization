@@ -121,6 +121,9 @@ margin-right: 20px;
     width: 40%;
     margin-left: 100px;
   }
+  .link{
+    color: #DC3220;
+  }
   #myBtn {
     
     position: fixed; /* Fixed/sticky position */
