@@ -1,11 +1,19 @@
 // All items we'd like to add
 
-
+const dataItems = [
+    { href: 'datavisual.html', text: 'Graph 1' },
+    { href: 'datavisual2.html', text: 'Graph 2' },
+    { href: 'interactive.html', text: 'Interactive graph' }
+];
+const artItems = [
+    { href: 'dataart.html', text: 'Artwork' },
+    { href: 'dataart2.html', text: 'Interactive artwork' },
+];
 const navItems = [
     { href: 'index.html', text: 'Home'},
     { href: './Blogs/blog1.html', text: 'Blogs'  },
-    { href: 'datavisual.html', text: 'Visualization'},
-    { href: 'dataart.html', text: 'Data Art',  },
+    { href: '#', text: 'Visualization',subItems:dataItems},
+    { href: '#', text: 'Data Art', subItems: artItems},
     {href: 'design.html', text: 'Wireframes',},
    
 

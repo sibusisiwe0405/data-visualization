@@ -60,7 +60,7 @@ body {
 }
 .sub-menu .menu-item {
   padding: 0.75rem 0;
-  background: #988372b8; 
+  background: #151515f6; 
   opacity: 0;
   transform-origin: bottom;
   animation: enter 0.2s ease forwards;

@@ -21,7 +21,7 @@ body{
     margin-top: 200px;
 margin-left: 20px;
 margin-right: 20px;
-    width: 100%;
+    width: 50%;
     
 
   }
@@ -64,17 +64,15 @@ margin-right: 20px;
   }
   .writing{
     background-color: rgba(19, 31, 71, 0.855);
-    
-    
     padding-left: 10%;
   padding-right: 10%;
   padding-top: 30px;
   padding-bottom: 30px;
-  text-align: justify;
+  text-align: left;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 30px;
-  text-indent: 40px;
-  letter-spacing: 2px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
   color: aliceblue;
   }
   .Bimages{
