@@ -9,17 +9,35 @@
     <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="stylesheet" href="./CSS/datavisual.css">
     <link rel="stylesheet" href="./CSS/graphs.css">
+    <link rel="stylesheet" href="./CSS/dataart2.css">
     <script src="https://kit.fontawesome.com/55a8f5cf6b.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
-    <script src="https://unpkg.com/topojson@3.0.2/dist/topojson.min.js"></script>
+    
+    
   </head>
   <body>
+    
     <div class="Heading">
       Data-driven Artwork
     </div>
+
+    <div class="buttonGroup">
+        <p>Tree Structure</p>
+    </div>
+<br>
+    <div id="chart">
+
+    </div>
+     
     
+    <script src="d3.js"></script>
+    <script src="d3-selection-multi.js"></script>
+    <script type="text/javascript" src="treedata.json"></script> 
+    <script src="dataart2.js"></script>
+    <br>
     <main>
-    <my-footer></my-footer>
+    <p class="graphsss">The Tree structure i have made as my artwork below is the data-driven artwork that makes use of interactivity. It represents the world and shows which continent and region the most populated countries are in. The graph is supposed to start off with just the countinents and then the user is supposed to click the different continents and expand to the countries.
+        I have chosen to not put all countries in the continent because my data only focuses on the most populous countries. </p>
 </main>
+<footer></footer>
 </body>
 </html>

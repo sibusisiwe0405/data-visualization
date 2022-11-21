@@ -19,50 +19,35 @@ color:#fff;
 
 body{
 position: relative;
-background-color: black;
+background-color: rgba(0, 0, 0, 0.492);
+overflow: visible;
+margin-right: 200px;
 
 }        
 
 #chart{
-margin-top: 190px;
-background-color: aliceblue;
+overflow: visible;
+margin-left: 10px;
 }
 
 .center {
 position: absolute;
-top:50px;
-left: 50%;
+top:300px;
+left: 20%;
 transform: translateX(-50%);
 }
 
-.left {
-position: absolute;
-top:50px;
-left: 0%;
-
-}
-
-.right {
-position: absolute;
-top:50px;
-right: 20%;
-
-}
-
 .svg {
-position: absolute;
+position: relative;
 top:50%;
-left:50%;
-margin-top: 100px;
+margin-left: 100px;
 }        
 
 
 .buttonGroup {
-display: inline-block;
+display: flex;
 justify-content: center;
-margin-bottom: 500px;
-margin-left: 400px;
-margin-top: 80px;
+
 
 }  
 
@@ -76,7 +61,6 @@ font-size: 16px;
 cursor: pointer;   
 outline: none;     
 transition: transform .5s;
-margin-top: 100px;
 }   
 
 .buttonGroup button:active{
@@ -89,7 +73,7 @@ background-color: rgb(77, 60, 224);
 }
 
 .selected{
-background-color: rgb(8, 20, 72);
+background-color: rgb(12, 189, 50);
 }
 
 .buttonGroup button:nth-child(2){
@@ -103,8 +87,23 @@ margin-right:10px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: black;
+background-color: rgba(0, 0, 0, 0.484);
 color: #fff;
 min-width: 120px;
 
 }
+.graphsss{
+    
+            margin-left: 150px;
+            margin-top: 40px;
+            display: flex;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-indent: 20px;
+            color: aliceblue; 
+            background: rgba(19, 31, 71, 0.855);
+        
+            padding-bottom: 20px;
+            padding-left: 10px;
+    }
+    
