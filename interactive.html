@@ -11,29 +11,40 @@
     <link rel="stylesheet" href="./CSS/footer.css">
     <link rel="stylesheet" href="./CSS/datavisual.css"> 
     <link rel="stylesheet" href="./CSS/graph2.css">
+    <link rel="stylesheet" href="./CSS/interactive.css">
     <script src="https://kit.fontawesome.com/55a8f5cf6b.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/d3@5.6.0/dist/d3.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 <body>
     
-    <br>
-    <p class="Heading">Interactive Graphs</p>
-    <main>
-
-    <div id="chart" style="height:600px;width:600px;margin-left:50px;">
-        <div class="innerCont" style=" top:150px; left: 400px; height:91% ; Width:100% ; padding-right:100px ; background-color:aliceblue;" />
-    </div>
     
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
-    <script src="https://d3js.org/d3.v2.min.js"></script>
+    <p class="Heading">Interactive Graphs</p>
 
-<script src="interactive.js"></script>
+   
 
-</main>
-<p class="graphs">The Pie Chart above is the Interactive data visualization of the top 10 most populated coutries in the world. The data represented is from the year 2018 estimated in the United Nations: World Population Prospects 2017.
-    When the mouse hovers over the pieces they pop out. </p>
+  <div class="buttonGroup">
+        <button class="selected" id="btn2009">Age 1-10</button>   
+        <button class="unselected" id="btn2010">Age 11-25</button>   
+       <button class="unselected" id="btn2011">Age 26-40</button>   
+        <button class="unselected" id="btn2012">Age 40+</button>  
+    </div> 
+
+    <div id="chart">
+
+    </div>
+
+        <script src="d3.js"></script>
+        <script src="d3-selection-multi.js"></script>
+      
+        <script src="main.js"></script>
+        
+
+    <main>
+        <p class="graphs">The Pie Chart above is the Interactive data visualization of the top 10 most populated coutries in the world. The data represented is from the year 2018 estimated in the United Nations: World Population Prospects 2017.
+            When the mouse hovers over the pieces they pop out. </p>
 <my-footer></my-footer>
+</main>
 </body>
 </html>
 </body>
